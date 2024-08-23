@@ -17,7 +17,7 @@ namespace AutogenTestproject
 
             public static AzureOpenAIConfig GetAzureOpenAIGPT3_5_Turbo(string? deployName = null)
             {
-                var azureOpenAIKey = "26ddf696ca464e4aa49abb4acd0561e0";
+                var azureOpenAIKey = "";
                 var endpoint = "https://bwa.openai.azure.com";
                 deployName = deployName ?? "gpt-35-turbo";
                 return new AzureOpenAIConfig(endpoint, deployName, azureOpenAIKey);
